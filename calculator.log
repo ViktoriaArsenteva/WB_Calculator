@@ -1,0 +1,12 @@
+2024-05-20 23:54:05,398 -  * Debugger is active!
+2024-05-20 23:54:05,405 -  * Debugger PIN: 535-652-793
+2024-05-20 23:54:27,328 - 127.0.0.1 - - [20/May/2024 23:54:27] "GET / HTTP/1.1" 200 -
+2024-05-20 23:54:27,368 - 127.0.0.1 - - [20/May/2024 23:54:27] "GET /static/script.js HTTP/1.1" 200 -
+2024-05-20 23:54:27,369 - 127.0.0.1 - - [20/May/2024 23:54:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 23:54:28,875 - User input: f, Result: f
+2024-05-20 23:54:28,877 - 127.0.0.1 - - [20/May/2024 23:54:28] "POST /calculate HTTP/1.1" 200 -
+2024-05-20 23:54:34,980 - User input: k, Result: k
+2024-05-20 23:54:34,980 - 127.0.0.1 - - [20/May/2024 23:54:34] "POST /calculate HTTP/1.1" 200 -
+2024-05-20 23:54:37,615 - Error in user input: 4g, Error: Sympify of expression 'could not parse '4g'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)
+2024-05-20 23:54:37,616 - 127.0.0.1 - - [20/May/2024 23:54:37] "POST /calculate HTTP/1.1" 200 -

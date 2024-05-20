@@ -1,0 +1,49 @@
+body {
+    background-color: #e9ecef;
+    padding-top: 50px;
+}
+
+.calculator-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.custom-card-header {
+    background-color: #343a40; 
+    color: #ffffff; 
+}
+
+.custom-label {
+    color: #6c757d;
+}
+
+.custom-input {
+    border: 2px solid #20B2AA; 
+}
+
+.custom-btn {
+    background-color: #20B2AA; 
+    color: #ffffff; 
+}
+
+.custom-btn:hover {
+    background-color: #008B8B;
+    color: #ffffff; 
+}
+
+.result {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.result-success{
+    color:#008B8B;
+}
+
+.result-error{
+    color:#8B0000;
+}

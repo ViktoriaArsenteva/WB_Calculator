@@ -1,0 +1,103 @@
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 535-652-793
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:53:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:53:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:53:23] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:53:23] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:53:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:2024-05-20 22:53:37.876759: 4+4+6+9/7 = 15.285714285714286
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:53:37] "POST /calculate HTTP/1.1" 200 -
+INFO:root:2024-05-20 22:53:56.131399: 4+4+6+9 = 23
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:53:56] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 535-652-793
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:57:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:57:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:2024-05-20 22:57:41.750020: 2 + 2 = 4
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 22:57:41] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 535-652-793
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:01:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:01:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:2024-05-20 23:01:16.635193: 5+6*4 = 29
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:01:16] "POST /calculate HTTP/1.1" 200 -
+INFO:root:2024-05-20 23:01:23.863730: 5+6*4 = 29
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:01:23] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 535-652-793
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:05:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:05:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:11:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:11:41] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:2024-05-20 23:12:17.460984: 4/2 = 2.0
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:12:17] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 535-652-793
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:13:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:13:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:2024-05-20 23:13:45.957398: 2-8 = -6
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:13:45] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:15:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:15:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:2024-05-20 23:15:19.160125: 5-3 = 2
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:15:19] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 535-652-793
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:19:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:19:58] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:2024-05-20 23:20:03.436777: 4+4 = 8
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:20:03] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:20:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:26:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:26:43] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:26:47] "POST /calculate HTTP/1.1" 200 -
+INFO:root:2024-05-20 23:26:56.716392: 5566 = 5566
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:26:56] "POST /calculate HTTP/1.1" 200 -
+INFO:root:2024-05-20 23:27:05.815572: 2+8 = 10
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:27:05] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:30:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:30:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:2024-05-20 23:30:24.411158: 4+5 = 9
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:30:24] "POST /calculate HTTP/1.1" 200 -
+INFO:root:2024-05-20 23:30:33.015525: 6 = 6
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:30:33] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:30:35] "POST /calculate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:32:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:32:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/May/2024 23:32:32] "POST /calculate HTTP/1.1" 200 -
+2024-05-20 23:50:04,125 -  * Debugger is active!
+2024-05-20 23:50:04,134 -  * Debugger PIN: 535-652-793
+2024-05-20 23:50:11,248 - 127.0.0.1 - - [20/May/2024 23:50:11] "[35m[1mPOST /calculate HTTP/1.1[0m" 500 -
+2024-05-20 23:51:57,181 -  * Detected change in '/Users/vikulik/Desktop/WB/app.py', reloading
+2024-05-20 23:51:57,689 -  * Debugger is active!
+2024-05-20 23:51:57,699 -  * Debugger PIN: 535-652-793
+2024-05-20 23:52:23,136 - 127.0.0.1 - - [20/May/2024 23:52:23] "GET / HTTP/1.1" 200 -
+2024-05-20 23:52:23,165 - 127.0.0.1 - - [20/May/2024 23:52:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 23:52:23,165 - 127.0.0.1 - - [20/May/2024 23:52:23] "GET /static/script.js HTTP/1.1" 200 -
+2024-05-20 23:52:25,149 - 127.0.0.1 - - [20/May/2024 23:52:25] "[35m[1mPOST /calculate HTTP/1.1[0m" 500 -
+2024-05-20 23:54:04,879 -  * Detected change in '/Users/vikulik/Desktop/WB/app.py', reloading
