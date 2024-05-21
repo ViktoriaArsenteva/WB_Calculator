@@ -175,3 +175,68 @@
 2024-05-22 01:30:33,495 - 127.0.0.1 - - [22/May/2024 01:30:33] "GET /static/script.js HTTP/1.1" 200 -
 2024-05-22 01:30:36,576 - User input: 5+5, Result: 10
 2024-05-22 01:30:36,577 - 127.0.0.1 - - [22/May/2024 01:30:36] "POST /calculate HTTP/1.1" 200 -
+2024-05-22 01:56:08,367 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 01:56:08,369 - [33mPress CTRL+C to quit[0m
+2024-05-22 01:56:08,370 -  * Restarting with stat
+2024-05-22 01:56:08,572 -  * Debugger is active!
+2024-05-22 01:56:08,579 -  * Debugger PIN: 535-652-793
+2024-05-22 01:57:46,688 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 01:57:46,688 - [33mPress CTRL+C to quit[0m
+2024-05-22 01:57:46,688 -  * Restarting with stat
+2024-05-22 01:57:46,887 -  * Debugger is active!
+2024-05-22 01:57:46,895 -  * Debugger PIN: 535-652-793
+2024-05-22 01:59:48,110 - 127.0.0.1 - - [22/May/2024 01:59:48] "GET / HTTP/1.1" 200 -
+2024-05-22 01:59:48,144 - 127.0.0.1 - - [22/May/2024 01:59:48] "GET /static/script.js HTTP/1.1" 200 -
+2024-05-22 01:59:48,147 - 127.0.0.1 - - [22/May/2024 01:59:48] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-22 01:59:58,329 - User input: 5+7, Result: 12
+2024-05-22 01:59:58,331 - 127.0.0.1 - - [22/May/2024 01:59:58] "POST /calculate HTTP/1.1" 200 -
+2024-05-22 02:04:17,498 -  * Detected change in '/Users/vikulik/Desktop/WB_WebApplication/src/app.py', reloading
+2024-05-22 02:04:17,563 -  * Restarting with stat
+2024-05-22 02:04:17,909 -  * Debugger is active!
+2024-05-22 02:04:17,915 -  * Debugger PIN: 535-652-793
+2024-05-22 02:04:46,687 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-05-22 02:04:46,687 - [33mPress CTRL+C to quit[0m
+2024-05-22 02:04:46,688 -  * Restarting with stat
+2024-05-22 02:04:46,891 -  * Debugger is active!
+2024-05-22 02:04:46,897 -  * Debugger PIN: 535-652-793
+2024-05-22 02:11:01,386 -  * Detected change in '/Users/vikulik/Desktop/WB_WebApplication/src/app.py', reloading
+2024-05-22 02:11:01,462 -  * Restarting with stat
+2024-05-22 02:11:01,792 -  * Debugger is active!
+2024-05-22 02:11:01,799 -  * Debugger PIN: 535-652-793
+2024-05-22 02:12:13,369 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 02:12:13,369 - [33mPress CTRL+C to quit[0m
+2024-05-22 02:12:13,370 -  * Restarting with stat
+2024-05-22 02:12:13,569 -  * Debugger is active!
+2024-05-22 02:12:13,575 -  * Debugger PIN: 535-652-793
+2024-05-22 02:12:27,008 - 127.0.0.1 - - [22/May/2024 02:12:27] "GET / HTTP/1.1" 200 -
+2024-05-22 02:12:27,044 - 127.0.0.1 - - [22/May/2024 02:12:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-22 02:12:27,044 - 127.0.0.1 - - [22/May/2024 02:12:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-22 02:12:29,291 - Invalid input: f
+2024-05-22 02:12:29,292 - 127.0.0.1 - - [22/May/2024 02:12:29] "[31m[1mPOST /calculate HTTP/1.1[0m" 400 -
+2024-05-22 02:14:26,790 -  * Detected change in '/Users/vikulik/Desktop/WB_WebApplication/src/app.py', reloading
+2024-05-22 02:14:26,849 -  * Restarting with stat
+2024-05-22 02:14:31,386 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 02:14:31,386 - [33mPress CTRL+C to quit[0m
+2024-05-22 02:14:55,063 - 127.0.0.1 - - [22/May/2024 02:14:55] "GET / HTTP/1.1" 200 -
+2024-05-22 02:14:55,099 - 127.0.0.1 - - [22/May/2024 02:14:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-05-22 02:14:55,100 - 127.0.0.1 - - [22/May/2024 02:14:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-22 02:14:56,770 - Invalid input: g
+2024-05-22 02:14:56,771 - 127.0.0.1 - - [22/May/2024 02:14:56] "[31m[1mPOST /calculate HTTP/1.1[0m" 400 -
+2024-05-22 02:14:58,430 - User input: 5, Result: 5
+2024-05-22 02:14:58,431 - 127.0.0.1 - - [22/May/2024 02:14:58] "POST /calculate HTTP/1.1" 200 -
+2024-05-22 02:14:58,956 - User input: 56, Result: 56
+2024-05-22 02:14:58,957 - 127.0.0.1 - - [22/May/2024 02:14:58] "POST /calculate HTTP/1.1" 200 -
+2024-05-22 02:18:06,710 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 02:18:06,710 - [33mPress CTRL+C to quit[0m
+2024-05-22 02:19:51,403 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 02:19:51,403 - [33mPress CTRL+C to quit[0m
+2024-05-22 02:19:56,863 - 127.0.0.1 - - [22/May/2024 02:19:56] "GET / HTTP/1.1" 200 -
+2024-05-22 02:19:56,898 - 127.0.0.1 - - [22/May/2024 02:19:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-22 02:19:56,898 - 127.0.0.1 - - [22/May/2024 02:19:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
