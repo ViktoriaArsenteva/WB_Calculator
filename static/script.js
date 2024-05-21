@@ -19,7 +19,8 @@ $(document).ready(function() {
                 }
             },
             error: function(xhr, status, error) {
-                $('#result').text('Error: ' + xhr.responseText)
+                var errorMessage = xhr.responseJSON ? xhr.responseJSON.result : 'An unknown error occurred.';
+                $('#result').text('Error: ' + errorMessage)
                     .removeClass('result-success')
                     .addClass('result-error');
             }
