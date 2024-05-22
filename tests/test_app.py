@@ -31,6 +31,13 @@ def test_calculate_subtraction(client):
     assert response.json['status'] == 'success'
     assert response.json['result'] == '2'
 
+# проверка результата равного нулю при вычитании
+def test_calculate_subtraction_zero(client):
+    response = client.post('/calculate', data={'expression': '5 - 5'})
+    assert response.status_code == 200
+    assert response.json['status'] == 'success'
+    assert response.json['result'] == '0'
+
 # проверка операции умножения
 def test_calculate_multiplication(client):
     response = client.post('/calculate', data={'expression': '3 * 4'})
@@ -52,17 +59,16 @@ def test_calculate_division(client):
     assert response.json['status'] == 'success'
     assert response.json['result'] == '5'
 
+# проверка деления на ноль
+def test_calculate_division_by_zero(client):
+    response = client.post('/calculate', data={'expression': '2 / 0'})
+    assert response.status_code == 400
+    assert response.json['status'] == 'error'
+    assert response.json['result'] == 'Incorrect expression'
+
 # проверка ввода некорректных данных
 def test_calculate_invalid_input(client):
     response = client.post('/calculate', data={'expression': '2 + a'})
     assert response.status_code == 400
     assert response.json['status'] == 'error'
     assert response.json['result'] == 'Invalid input'
-
-# проверка деления на ноль
-def test_calculate_incorrect_expression(client):
-    response = client.post('/calculate', data={'expression': '2 / 0'})
-    assert response.status_code == 400
-    assert response.json['status'] == 'error'
-    assert response.json['result'] == 'Incorrect expression'
-
