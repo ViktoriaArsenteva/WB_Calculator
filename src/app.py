@@ -33,3 +33,7 @@ def calculate():
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1')
+
+#TODO деление на ноль
+#TODO sympy в скачиваемые библиотеки
+#TODO проценты
